@@ -1,0 +1,207 @@
+*{    
+    margin: 0;
+    border: border-box;
+    font-family: 'Akatab', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+@media (min-width: 350px){
+  .iphone-img{
+    position: absolute;
+    top: 850px;
+    left: 200px;
+  }
+}
+
+.logo{
+   background-image: url(logo.png);
+   height: 45px;
+   width: 45px;
+   background-size: cover;
+   margin-left: 10px;
+
+}
+.logo:hover{
+  transform: scale(1.1);
+  transition: all 1s linear;
+}
+
+.navbar{
+  height: 60px;
+  width: 100%;
+  background-color: #151919;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.navbar ul li{
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+ul li a{
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  
+}
+
+ul li a:hover{
+  color: #ea1538;
+  transition: .3s;
+}
+
+button{
+  border: none;
+  margin-right: 30px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
+
+button:hover{
+  background-color: #ea1538;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.oneplus-head{
+  position: absolute;
+  left: 75px;
+  top: 40%;
+}
+
+.iphone-head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+span{
+    color: #ea1538;
+}
+
+.iphone-img{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+.iphone-feature{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+
+.samsung-head{
+    text-align: center;
+    margin-top: 600px;
+}
+.samsung-img{
+    position: absolute;
+    top: 850px;
+    left: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.samsung-feature{
+    position: absolute;
+    top: 950px;
+    left: 600px;
+}
+
+
+.onePlus-head{
+   text-align: center;
+   margin-top: 650px;
+}
+
+.oneplus-img{
+    position: absolute;
+    top: 1550px;
+    left: 550px;
+}
+
+.oneplus-feature{
+    position: absolute;
+    top: 1650px;
+    left: 200px;
+}
+
+span:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    display: block;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 25px;
+    text-decoration: none;
+    width: 100px;
+    margin-top: 14px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: #ea1538;
+  }
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: #151919;
+  margin-top: 600px;
+  padding: 70px 30px 20px;
+  
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.icons a{
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+}
+
+.icons a:hover{
+    color: #ea1538;
+    transform: scale(1.4);
+    transition: 1s;
+}
+.footer-feature{
+    margin: 30px 0;
+}
+
+.footer-feature ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-feature ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+
+.footer .footer-feature ul li a:hover{
+    color: #ea1538;
+
+}
