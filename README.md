@@ -19,7 +19,7 @@
 
 ## Deployment
 
-The Product Landing Page project is deployed and posted on Linkedin (https://www.linkedin.com/posts/adilsiddiqui70786_webdevelopment-productlandingpage-html-activity-7083384448095858688-Hxim?utm_source=share&utm_medium=member_desktop) for convenient access.
+The Product Landing Page project is deployed and posted on Linkedin (https://ln.run/2DV-r) for convenient access.
 
 <br>
 
